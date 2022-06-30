@@ -9,9 +9,12 @@ import { AuthLayoutComponent } from './layouts/auth-layout/auth-layout.component
 const routes: Routes =[
   {
     path: '',
-    redirectTo: 'dashboard',
+    redirectTo: 'Dashboard',
     pathMatch: 'full',
-  }, {
+  },
+  
+  
+  {
     path: '',
     component: AdminLayoutComponent,
     children: [

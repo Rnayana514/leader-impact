@@ -7,6 +7,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { LoginComponent } from '../../pages/login/login.component';
 import { RegisterComponent } from '../../pages/register/register.component';
+import { LoadpageComponent } from 'src/app/pages/loadpage/loadpage.component';
 @NgModule({
   imports: [
     CommonModule,
@@ -16,6 +17,7 @@ import { RegisterComponent } from '../../pages/register/register.component';
   ],
   declarations: [
     LoginComponent,
+    LoadpageComponent,
     RegisterComponent
   ]
 })
