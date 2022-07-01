@@ -1,24 +1,39 @@
-<div class="header bg-white py-6 py-lg-7">
-  <div class="container">
-      <div class="row">
-          <div class="col-lg-5 col-md-7 text-center login">
-            <img src="assets/img/icons/Vector.png" style="padding-bottom: 30px;" alt="">
-            <p style="font-family: 'Tahoma';
+<div class="header py-5 py-lg-6" style="background: #BBBBBB;">
+  <div class="container-fluid">
+      <div class="row" >
+          <div class="col-lg-4 col-md-7 login" style="background: #ffffff;">
+            <div class="text-center"> 
+
+            <img src="assets/img/icons/Vector.png" style="padding-bottom: 20px; padding-top: 70px;"alt="">
+          </div>
+            <p class="text-center" style="font-family: 'Tahoma';
             font-style: normal;
             font-weight: 700;
             font-size: 25px;
             line-height: 30px; color: #444444;">Login</p>
 
             
-            <p style="font-family: 'Tahoma';
+            <p class="text-center" style="font-family: 'Tahoma';
             font-style: normal;
             font-weight: 400;
             font-size: 20px;
             line-height: 24px;
-            color: #444444;">Sign into your account or register</p>
+            color: #444444; margin-top: -10px;">Sign into your account or register</p>
+            <div class="form" style="padding-top: 20;">
+              <form action="" method="post">
+                <label for="Email">Email</label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                 <label for="psw"><b>Password</b></label>
+                 <input type="password" placeholder="Enter Password" name="psw" required>
+                  <div class="login" style="text-align: center;padding-bottom: 70px;">
+                    <a href="/#/dashboard" ><button type="button" class="btn  login-btn1">Login</button></a>
+                    <a href="/#/register" ><button type="button" class="btn  login-btn2">Register</button></a>
+                 </div>
+              </form>
+            </div>
 
           </div>
-          <div class="col-lg-7 leadpage" style="background: #BBBBBB; padding-top: 30px;">
+          <div class="col-lg-8 d-none d-lg-block" style="background: #BBBBBB; padding-top: 50px;">
             <img src="assets/img/theme/loginbg1.png" class="img-fluid" alt="Responsive image">
           </div>
       </div>
