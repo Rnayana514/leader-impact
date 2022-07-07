@@ -7,8 +7,16 @@ declare interface RouteInfo {
 }
 export const ROUTES: RouteInfo[] = [
     { path: '/dashboard', title: 'Dashboard' },
-    { path: '/user-profile', title: 'User profile'},
-    { path: '/login', title: 'Login' }
+    { path: '/Chptr1', title: 'A Working Faith'},
+    { path: '/Chptr2', title: 'A New Identity'},
+    { path: '/Chptr3', title: 'Forgiven And Free'},
+    { path: '/Chptr4', title: 'Power For Living'},
+    { path: '/Chptr5', title: 'Knowing God - Really!!'},
+    { path: '/Chptr6', title: 'Using the Owner\'s Manual'},
+    { path: '/Chptr7', title: 'Potent Prayer'},
+    { path: '/Chptr8', title: 'Work - The Original Design'},
+    { path: '/Chptr9', title: 'Stewardship'},
+    { path: '/Chptr10', title: 'Your Calling'}
 ];
 
 @Component({
