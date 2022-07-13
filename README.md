@@ -1,2 +1,0 @@
-# leader impact
- Workplace Faith
