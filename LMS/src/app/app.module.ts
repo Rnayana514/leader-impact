@@ -54,10 +54,13 @@ import { ChatInboxComponent } from './user/chat-inbox/chat-inbox.component';
 import { PostquizComponent } from './admin/postquiz/postquiz.component';
 import { ReportComponent } from './admin/report/report.component';
 import { Chapter1Component } from './chapter/chapter1/chapter1.component';
-import { Chapter2Component } from './chapter/chapter2/chapter2Component';
+import { Chapter2Component } from './chapter/chapter2/chapter2.component';
 import { Chapter3Component } from './chapter/chapter3/chapter3.component';
 import { Chapter4Component } from './chapter/chapter4/chapter4.component';
 import { Chapter5Component } from './chapter/chapter5/chapter5.component';
+import { Chapter6Component } from './chapter/chapter6/chapter6.component';
+import { Chapter7Component } from './chapter/chapter7/chapter7.component';
+import { Chapter8Component } from './chapter/chapter8/chapter8.component';
 import { WorkplaceComponent } from './chapter/workplace/workplace.component';
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
@@ -75,10 +78,12 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     Chapter3Component,
     Chapter4Component,
     Chapter5Component,
+    Chapter6Component,
+    Chapter7Component,
+    Chapter8Component,
     FooterComponent,
     HomeComponent,
     UsersComponent,
-  
     MenteeRegisterComponent,
     ProfileComponent,
     FellowshipComponent,
